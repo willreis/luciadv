@@ -2,9 +2,18 @@
 FROM node:18-alpine AS builder
 
 WORKDIR /app
+
+# Instala dependências (incluindo Prisma)
 COPY package.json package-lock.json ./
 RUN npm ci --silent
+
+# Copia tudo para a pasta app
 COPY . .
+
+# Gera o Prisma Client corretamente antes do build
+RUN npx prisma generate
+
+# Faz o build do Next.js
 RUN npm run build
 
 # Etapa de produção
