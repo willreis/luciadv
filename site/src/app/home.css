@@ -1,0 +1,22 @@
+.textosEscritorio, 
+h2{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.textosEscritorio p{
+    color: black;
+    line-height: 1.6;
+    margin-top: 20px;
+    font-size: 20px;
+}
+
+.boxCards h2,
+.boxCards p,
+.boxCards a{
+    color:#000!important;
+}
+
+.escritorioBox{
+    -webkit-box-shadow: 10px 10px 13px 0px rgba(0,0,0,0.4);
+    -moz-box-shadow: 10px 10px 13px 0px rgba(0,0,0,0.4);
+    box-shadow: 10px 10px 13px 0px rgba(0,0,0,0.4);
+}

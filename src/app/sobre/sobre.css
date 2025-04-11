@@ -1,0 +1,11 @@
+.imagemBox{
+    -webkit-box-shadow: 10px 10px 13px 0px rgba(0,0,0,0.4);
+    -moz-box-shadow: 10px 10px 13px 0px rgba(0,0,0,0.4);
+    box-shadow: 10px 10px 13px 0px rgba(0,0,0,0.4);
+}
+
+@media only screen and (max-width: 600px) {
+    .titulo{
+        text-align: center;
+    }
+}

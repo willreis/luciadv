@@ -1,0 +1,27 @@
+  header ul li a {
+    font-size: 20px;
+    position: relative;
+    display: inline-block;
+    text-decoration: none; /* Remova o underline padrão, se houver */
+    transition: transform 0.2s ease, color 0.2s ease;
+  }
+  
+  header ul li a::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 0;
+    height: 2px; /* Ajuste a espessura do underline */
+    background-color: beige; /* Cor do underline */
+    transition: width 0.3s ease; /* Transição suave do tamanho */
+  }
+  
+  header ul li a:hover {
+    color: beige; /* Cor do texto ao passar o mouse */
+    transform: scale(1.05); /* Efeito de zoom */
+  }
+  
+  header ul li a:hover::after {
+    width: 100%; /* O underline vai de 0% até 100% */
+  }
