@@ -18,7 +18,8 @@ export default function SobreNos() {
       {/* Seção Principal */}
       <div className="flex flex-col lg:flex-row items-center gap-10">
         <h1 className="text-center lg:hidden text-3xl font-bold text-gray-800 underline">
-          Drª. Luciana Oliveira
+          Drª. Luciana Oliveira <br/>
+          (OAB/SP n° 475.357)
         </h1>
 
         {/* Imagem */}

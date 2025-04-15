@@ -59,7 +59,7 @@ export default function Header() {
               <div className="sm:flex sm:gap-4">
                 <a
                   className="flex items-center justify-center rounded-md bg-[#25D366] px-5 py-2.5 text-sm font-medium text-white transition hover:bg-[#128C7E]"
-                  href={`https://wa.me/5511986033206?text=${message}`}
+                  href={`https://wa.me/5511967252955?text=${message}`}
                   target="_blank"
                 >
                   <FaWhatsapp className="mr-2" /> Whatsapp

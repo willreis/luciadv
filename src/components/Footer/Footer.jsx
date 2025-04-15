@@ -22,6 +22,7 @@ export default function Footer() {
               alt="Logo"
               className="w-40 sm:w-52 "
             />
+            <h2 className="mt-5">OAB/SP n° 475.357</h2>
           </div>
 
           {/* Texto centralizado ocupando 100% da tela */}

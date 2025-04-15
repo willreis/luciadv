@@ -14,7 +14,7 @@ export default function Home() {
                 Sobre o escritório
               </h2>
               <p>
-                O escritório de advocacia [Nome do Escritório] é um espaço
+                O escritório de advocacia Drª Luciana Oliveira é um espaço
                 dedicado à busca incessante pela justiça e pela defesa dos
                 direitos de nossos clientes. Com uma equipe altamente
                 qualificada e especializada nas mais diversas áreas do Direito,
@@ -24,14 +24,12 @@ export default function Home() {
               <p>
                 Nosso escritório se destaca pela competência técnica, ética e
                 pela capacidade de adaptar soluções jurídicas às necessidades
-                específicas de cada cliente. Atuamos em áreas como Direito
-                Civil, Direito Empresarial, Direito Trabalhista, Direito
-                Tributário, Direito Penal, entre outras, sempre com uma
+                específicas de cada cliente. Atuamos em áreas como Direito Contratual; Regularização de Imóvel, entre outras, sempre com uma
                 abordagem estratégica que busca proteger os interesses de nossos
                 clientes e resolver conflitos de forma ágil e eficiente.
               </p>
             </div>
-            <div className="rounded-lg bg-gray-200 bg-[url('/Img/home/img-adv.jpg')] bg-cover bg-center bg-no-repeat w-full h-[610px] escritorioBox"></div>
+            <div className="rounded-lg bg-gray-200 bg-[url('/Img/luadv2.jpg')] bg-cover bg-center bg-no-repeat w-full h-[610px] escritorioBox"></div>
           </div>
 
           <div>
