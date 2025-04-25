@@ -31,5 +31,9 @@ COPY --from=builder /app/.next ./.next
 COPY --from=builder /app/public ./public
 COPY --from=builder /app/node_modules ./node_modules
 
-EXPOSE 3000
-CMD ["npm", "start"]
+# HEALTHCHECK
+HEALTHCHECK --interval=30s --timeout=10s --start-period=10s --retries=5 \
+  CMD curl -f http://localhost:3002 || exit 1
+
+EXPOSE 3002
+CMD ["npm", "start", "--", "--port", "3002"]
